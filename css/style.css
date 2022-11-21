@@ -513,6 +513,7 @@ transition: 250ms;
     justify-content: center;
     flex-grow: 1;
 gap:8px;
+padding-top: 100px;
     
 }
 
