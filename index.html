@@ -132,7 +132,7 @@
   <ul class="section-team__list">
     <li class="section-team__picture">
   <img src="./images/img4.jpg" alt="img.1" width="270" height="260">
-<h3 class="secion-team__title">Christopher Walker</h3><P class="section-team__description">Product designer</p>
+<h3 class="section-team__title">Christopher Walker</h3><P class="section-team__description">Product designer</p>
   <ul class="section-team__socialicons">
   <li> <svg class="section-team__socialicons__icon" width="44" height="44">
      <use href="./images/icons.svg/icons.svg#icon-instagram"></use>
@@ -249,46 +249,47 @@
   <!-- Page footer -->
   <footer>
 <div class="container">
-    <div class="footer2">
-          <div class="footer1">
-      <a class="link9" href="#" ><span class="Web">Web</span><span class="Studio1">Studio</span></a>
- <address class="address">  
-   <p>695 Park Ave, Nev York, NY 10065,<br>
-    United States</p>
-    <a class="link10" href="mailto:info@devstudio.com">info@devstudio.com</a>
-    <a class="link10" href="tel:+12127724150">+1 212-772-4150</a>
-    
+    <div class="section-footer">
+          <div class="section-footer__contact">
+      <a class="section-footer__contact__logo" href="#" ><span class="section-footer__contact__logo1">Web</span><span class="section-footer__contact__logo2">Studio</span></a>
+ <address>
+  <ul class="section-footer__address">  
+   <li><p>695 Park Ave, Nev York, NY 10065,<br>
+    United States</p></li>
+    <li><a class="section-footer__address__linker" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+    <li><a class="section-footer__address__linker" href="tel:+12127724150">+1 212-772-4150</a></li>
+  </ul>
   </address>
 </div>
 
-<div class="join">
-  <h3 class="head3">DOŁĄCZ DO NAS</h3>
-    <ul class="socialicons2">
- <li> <svg class="social2" width="44" height="44">
+<div class="section-footer__social">
+  <h3 class="section-footer__social__header">DOŁĄCZ DO NAS</h3>
+    <ul class="section-footer__social__list">
+ <li> <svg class="section-footer__social__icon" width="44" height="44">
      <use href="./images/icons.svg/icons.svg#icon-instagram"></use>
         </svg> </li>
-    <li>  <svg class="social2" width="44" height="44">
+    <li>  <svg class="section-footer__social__icon" width="44" height="44">
           <use href="./images/icons.svg/icons.svg#icon-twitter"></use>
         </svg></li>
-    <li>  <svg class="social2" width="44" height="44">
+    <li>  <svg class="section-footer__social__icon" width="44" height="44">
           <use href="./images/icons.svg/icons.svg#icon-facebook"></use>
         </svg></li>
-    <li>  <svg class="social2" width="44" height="44">
+    <li>  <svg class="section-footer__social__icon" width="44" height="44">
           <use href="./images/icons.svg/icons.svg#icon-linkedin"></use>
         </svg></li>
       </ul>
         </div>
         
         
-        <form class="form1">
+        <form class="section-footer__form">
          
-            <label class="form1-label" for="email">ZAPISZ SIĘ DO NEWSLETTERA</label>
+            <label class="section-footer__form__label" for="email">ZAPISZ SIĘ DO NEWSLETTERA</label>
             
-          <div class="form2">
+          <div class="section-footer__form__mail">
             
             <input type="email" name="email" id="email" placeholder="E-mail">
             
-   <button type="submit" class="email-submit">Zapisz się<svg class="iconsend" width="24" height="24">
+   <button type="submit" class="section-footer__button">Zapisz się<svg class="iconsend" width="24" height="24">
      <use href="./images/icons.svg/icons.svg#icon-iconsend"></use>
     </svg></button>
  
@@ -297,64 +298,64 @@
         </div>
       </footer>
         
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-    <button type="button" class="close-btn" data-modal-close> <svg class="close">
+        <div class="backdrop" data-modal>
+          <div class="backdrop__modal">
+    <button type="button" class="backdrop__close-button" data-modal-close> <svg class="backdrop__close-icon">
       <use href="./images/icons.svg/icons.svg#icon-close"></use></svg></button>
       
       
-      <form class="modal-data">
-        <h2 class="legend-modal">Zostaw swoje dane w formularzu poniżej</h2>
-        <fieldset class="fieldset">
-           <label class="label" for="name">Imię</label>
-           <svg class="iconform">
+     <form class="backdrop-data">
+        <h2 class="backdrop-data__legend">Zostaw swoje dane w formularzu poniżej</h2>
+        <fieldset class="backdrop-data__fieldset">
+           <label class="backdrop-data__label" for="name">Imię</label>
+           <svg class="backdrop-data__icon">
              <use href="./images/icons.svg/icons.svg#icon-name"
              width="12"
              height="12">
             </use>
           </svg>
-          <input class="input" type="text" name="text" id="name" placeholder/>
+          <input class="backdrop-data__input" type="text" name="text" id="name" placeholder/>
         </fieldset>
 
-        <fieldset class="fieldset">
-          <label class="label" for="phone">Telefon</label>
-          <svg class="iconform2">
+        <fieldset class="backdrop-data__fieldset">
+          <label class="backdrop-data__label" for="phone">Telefon</label>
+          <svg class="backdrop-data__icon">
              <use href="./images/icons.svg/icons.svg#icon-tel"
              width="13"
              height="13">
             </use>
           </svg>
-          <input class="input" type="tel" name="telephone" id="phone" placeholder/>
+          <input class="backdrop-data__input" type="tel" name="telephone" id="phone" placeholder/>
         </fieldset>
 
-          <fieldset class="fieldset">
-    <label class="label" for="mail">Email</label>
-     <svg class="iconform">
+          <fieldset class="backdrop-data__fieldset">
+    <label class="backdrop-data__label" for="mail">Email</label>
+     <svg class="backdrop-data__icon">
              <use href="./images/icons.svg/icons.svg#icon-mail"
              width="15"
              height="12">
             </use>
           </svg>
-          <input class="input" type="email" name="email" id="mail" placeholder/>
+          <input class="backdrop-data__input" type="email" name="email" id="mail" placeholder/>
                  </fieldset>
 
- <fieldset class="fieldset1">
-    <label class="label1" for="text">Komentarz</label>
-        <textarea class="input2" rows="7"
+ <fieldset class="backdrop-data__fieldset2">
+    <label class="backdrop-data__label2" for="text">Komentarz</label>
+        <textarea class="backdrop-data__input2" rows="7"
          name="feedback" id="text" placeholder="Wprowadź tekst"></textarea>
       
       </fieldset>
-        <label class="legal-checkbox">
-          <input class="checkbox1" type="checkbox" name="legal" value="legal" />
-          Oświadczam, że akceptuję <a class="legal-link" href="#">Regulamin</a> i <a class="legal-link" href="#">Politykę Prywatności</a>
-          <span class="checkmark"></span>
+        <label class="backdrop-data__legal-checkbox">
+          <input class="backdrop-data__legal-checkbox-checkbox" type="checkbox" name="legal" value="legal" />
+          Oświadczam, że akceptuję <a class="backdrop-data__legal-checkbox__link" href="#">Regulamin</a> i <a class="backdrop-data__legal-checkbox__link" href="#">Politykę Prywatności</a>
+          <span class="backdrop-data__legal-checkbox__checkmark"></span>
         </label>
-          <button type="submit" class="submit-form">Wyślij</button>
+          <button type="submit" class="backdrop-data__legal-checkbox__button">Wyślij</button>
   
       </form>
     </div>
     </div>
-      
+
       <script src="./js/modal.js"></script>
     </body>
 </html>
