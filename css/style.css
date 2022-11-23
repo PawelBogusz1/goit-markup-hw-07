@@ -306,6 +306,19 @@ line-height:20px;
 width: 200px;
 }
 
+
+    
+.backdrop-data__legal-checkbox__icon{
+     height: 14px;
+  width: 14px;
+  background-color: var(--white-color);
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  fill:white;
+
+}
+
 .backdrop-data__legal-checkbox{
          font-family: 'Roboto';
 font-style: normal;
@@ -321,9 +334,7 @@ position:relative;
     position: relative;
     width: 16px;
     height: 15px;
-   
-
-}
+   }
 
 
 .backdrop-data__legal-checkbox input{
@@ -346,7 +357,6 @@ position:relative;
 
 .backdrop-data__legal-checkbox__checkmark::after{
     display:block;
-content:url(../images/icons.svg/check.svg);
 border:0px solid white;
 position:absolute;
 display: none;
