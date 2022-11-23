@@ -405,6 +405,20 @@ top:-4px;
 }
 
 
+.backdrop-data__fieldset:hover{
+    border-color: #2196f3;
+     transition-property: fill;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop-data__fieldset:hover .backdrop-data__icon{
+    fill: #2196f3;
+     transition-property: fill;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .backdrop-data__input{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -438,12 +452,20 @@ resize:none;
 .backdrop-data .backdrop-data__input2:focus{
     outline:0;
 }
-.backdrop-data__fieldset2:has(textarea:focus){
+
+.backdrop-data__fieldset2:focus-within{
     border-color: #2196f3;
      transition-property: fill;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+
+.backdrop-data__fieldset2:hover{
+    border-color: #2196f3;
+     transition-property: fill;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
