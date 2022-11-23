@@ -154,6 +154,10 @@ flex-grow: 1;
 gap:10px;
 padding-left: 78px;
 padding-top: 72px;
+    font-family: Roboto;
+font-Weight:700;
+font-size: 14px;   
+line-height:16.41px;
  }
 
  .section-footer__form__mail{
@@ -240,7 +244,8 @@ color:var(--brand-color-czcionka3);
 font-Weight:700;
 font-Size:16px;
 Line-height:30px;
-display: block;
+display: flex;
+align-items: center;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
@@ -375,14 +380,14 @@ top:-4px;
     outline:0;
 }
 
-.backdrop-data__fieldset:has(input:focus){
+.backdrop-data__fieldset:focus-within{
     border-color: #2196f3;
      transition-property: fill;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop-data__fieldset:has(input:focus) .backdrop-data__icon{
+.backdrop-data__fieldset:focus-within .backdrop-data__icon{
     fill: #2196f3;
      transition-property: fill;
   transition: 250ms;
@@ -695,6 +700,10 @@ position: relative;
 .section-footer__social__header{
     display: block;
     padding-bottom: 20px;
+    font-family: Roboto;
+font-Weight:700;
+font-size: 14px;   
+line-height:16.41px;
 }
 
 .section-description__list__text-title{
