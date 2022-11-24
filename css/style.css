@@ -224,6 +224,7 @@ font-Weight:700;
 font-Size:16px;
 Line-height:30px;
 cursor: pointer;
+display: flex;
 align-items: center;
    padding-left: 42px;
     padding-top: 8px;
